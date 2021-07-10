@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main (void)
+{
+    int number;
+
+    printf ("Write a number: ") ;
+    scanf("%d", &number) ;
+
+    if (number < 10)
+    {
+        printf ("\n%d is less than 10", number) ;
+    }
+    else
+    {
+        printf ("\n%d is greater than 10", number) ;
+    }
+    fflush(stdin);
+    printf("\n\nPress Enter to finish...") ;
+    getchar();
+
+    return 0;
+}
